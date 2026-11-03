@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# environment files (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# vercel
+.vercel/
+
+# build and test output
+dist/
+coverage/
+*.tsbuildinfo
+
+# editors and OS
+.DS_Store
+.idea/
+.vscode/
+*.log
